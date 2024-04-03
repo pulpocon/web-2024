@@ -1,0 +1,44 @@
+.page-simple {
+  color: $white;
+
+  &__title {
+    font-size: 3em;
+    @include text-gradient();
+    line-height: 1.1em;
+    @include media-min($sm) {
+      font-size: 4em;
+    }
+  }
+
+  &__wrapper {
+    padding-top: 50px;
+    line-height: 1.4em;
+    margin-bottom: 70px;
+    min-height: calc(100vh - 400px);
+
+    @include media-min($sm) {
+      padding-top: 30px;
+      margin-bottom: 100px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 1.5em 0 1em 0;
+      line-height: 1.1em
+    }
+
+    p {
+      margin-bottom: 1.2em;
+      word-break: break-word;
+    }
+
+    strong {
+      font-weight: bold;
+    }
+
+    a:not(.btn) {
+      @include a-inverse(var(--turquoise), var(--turquoise));
+      color: var(--turquoise);
+      font-weight: bold;
+    }
+  }
+}

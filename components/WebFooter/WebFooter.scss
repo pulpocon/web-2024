@@ -1,0 +1,59 @@
+@import "~/assets/scss/settings/_variables";
+@import "~/assets/scss/mixins";
+
+.web-footer {
+  background: var(--dark-blue);
+  color: $white;
+  padding: 50px 0 50px 0;
+  position: relative;
+
+
+  &__content {
+  }
+
+  &__links {
+    padding-top: 30px;
+    text-align: center;
+
+    a {
+      margin: 0 5px 10px 5px;
+      color: $white;
+      @include a-inverse($white, $white);
+    }
+  }
+}
+
+.event-organizer {
+  text-align: center;
+
+  &__title {
+    font-size: 20px;
+    margin: 0 0 30px 0;
+    color: var(--white);
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  &__logos {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__link {
+    display: block;
+    padding: 0 20px 15px 20px;
+
+    &--craftersvigo {
+      width: 70px;
+    }
+
+
+    &--vigotech {
+      width: 60px;
+    }
+
+    &--aindustriosa {
+      width: 70px;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+@import "@/assets/scss/mixins";
+
+.location-section {
+  min-height: 100vh;
+  color: var(--white);
+  position: relative;
+
+
+  iframe {
+    min-height: 300px;
+
+    @include media-min(768px) {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+    }
+  }
+
+
+  &__content {
+    color: var(--white);
+
+    z-index: 3;
+    padding: 30px;
+
+    background: var(--purple);
+    width: 300px;
+    line-height: 1.4em;
+
+    @include media-min(768px) {
+      border-radius: 30px;
+      top: 30px;
+      right: 30px;
+      position: absolute;
+    }
+
+    a {
+      color: var(--turquoise);
+      @include a-inverse(var(--turquoise), var(--turquoise));
+
+    }
+
+    h2 {
+      color: var(--white);
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__venue {
+    margin-bottom: 30px;
+    color: #fff;
+
+    h2 {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__transports {
+
+  }
+
+  .transport-info {
+    margin-bottom: 1.4em;
+
+    &__title {
+      font-size: 1em;
+      margin-bottom: 0.5em;
+    }
+  }
+
+}

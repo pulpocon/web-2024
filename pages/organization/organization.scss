@@ -1,0 +1,12 @@
+.page--organization {
+  text-align: center;
+
+  &__organizers {
+    &-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+    }
+  }
+}

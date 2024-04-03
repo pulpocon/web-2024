@@ -1,0 +1,21 @@
+.heading-2 {
+  color: var(--turquoise);
+  font-size: 3em;
+  @include media($xs) {
+    font-size: 2.2em;
+  }
+}
+
+.heading-3 {
+  color: var(--turquoise);
+  font-size: 2em;
+}
+
+.heading-4 {
+  color: var(--turquoise);
+  font-size: 1.5em;
+  @include media($xs) {
+    font-size: 1.2em;
+  }
+}
+

@@ -1,0 +1,211 @@
+@mixin media($devices...) {
+  @each $device in $devices {
+    @if (length($device) == 2) {
+      @media screen and (min-width: nth($device, 1)) and (max-width: nth($device, 2)) {
+        @content;
+      }
+    } @else {
+      @media screen and (min-width: nth($device, 1)) {
+        @content;
+      }
+    }
+  }
+}
+
+@mixin media-min($devices) {
+  @each $device in $devices {
+    @if (length($device) == 2) {
+      @media screen and (min-width: nth($device, 2) + 1) {
+        @content;
+      }
+    } @else {
+      @media screen and (min-width: nth($device, 1) + 1) {
+        @content;
+      }
+    }
+  }
+}
+
+@mixin a($color) {
+  @include underline-effect($color);
+  transition: all .2s ease-in-out;
+  &:hover {
+    color: $color;
+  }
+}
+
+
+@mixin cover() {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+@mixin underline-effect($color, $effect: 'left') {
+  text-decoration: none;
+  padding-bottom: 3px;
+  position: relative;
+  &:hover {
+    text-decoration: none;
+  }
+  &:after {
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    content: '';
+    height: 1px;
+    position: absolute;
+    background: $color;
+    width: 0;
+    bottom: 0;
+  }
+  @if ($effect == 'center') {
+    &:after {
+      left: 50%;
+    }
+
+    &:hover {
+      &:after {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+
+  @if ($effect == 'left') {
+    &:after {
+      left: 0;
+    }
+
+    &:hover {
+      &:after {
+        width: 100%;
+      }
+    }
+  }
+
+  @if ($effect == 'right') {
+    &:after {
+      right: 0;
+    }
+
+    &:hover {
+      &:after {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+@mixin a-inverse($color, $hover-color) {
+  @include underline-effect-inverse($color, 'right');
+  transition: all .2s ease-in-out;
+  &:hover {
+    color: $hover-color;
+  }
+}
+
+
+@mixin underline-effect-inverse($color, $effect: 'left') {
+  text-decoration: none;
+  padding-bottom: 3px;
+  position: relative;
+  &:hover {
+    text-decoration: none;
+  }
+  &:after {
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    content: '';
+    height: 1px;
+    position: absolute;
+    background: $color;
+    width: 100%;
+    bottom: 0;
+  }
+
+  &:hover {
+    &:after {
+      width: 0;
+    }
+  }
+
+  @if ($effect == 'center') {
+    &:after {
+      left: 50%;
+    }
+  }
+
+  @if ($effect == 'left') {
+    &:after {
+      left: 0;
+    }
+  }
+
+  @if ($effect == 'right') {
+    &:after {
+      right: 0;
+    }
+  }
+}
+
+
+@keyframes fade-animation {
+  0% {
+    opacity: 0.8;
+    transform: scale(1)
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2)
+  }
+  100% {
+    opacity: 0.8;
+    transform: scale(1)
+  }
+}
+
+@mixin fade-animation($time: 1s) {
+  animation: fade-animation $time infinite;
+}
+
+
+@mixin gradient() {
+  background: var(--turquoise);
+  background: linear-gradient(to right,
+          var(--turquoise),
+          var(--blue-violet),
+          var(--purple),
+          var(--dark-purple),
+          var(--pink),
+          var(--orange),
+          var(--yellow)
+  );
+}
+
+@mixin text-gradient() {
+  background: linear-gradient(to right,
+          var(--turquoise),
+          var(--blue-violet),
+          var(--purple),
+          var(--dark-purple),
+          var(--pink),
+          var(--orange),
+          var(--yellow)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin text-gradient-light() {
+  background: linear-gradient(to right,
+          var(--pink),
+          var(--orange),
+          var(--yellow)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

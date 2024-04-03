@@ -1,0 +1,8 @@
+.text-gradient {
+  @include text-gradient();
+}
+
+.text-gradient-light {
+  @include text-gradient-light();
+}
+
