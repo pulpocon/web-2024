@@ -10,13 +10,22 @@
         </h3>
 
       </div>
+      <div>
+        <a class="btn" href="https://bit.ly/pulpoCon24SponsorES" target="_blank">
+          Dossier Patrocinadores
+        </a>
+        <a class="btn" href="https://bit.ly/pulpoCon24SponsorEN" target="_blank">
+          Sponsors Deck
+        </a>
+      </div>
       <div class="claims">
         <a class="btn" href="#summary">
           <i class="fas fa-arrow-down"></i> Más información <i class="fas fa-arrow-down"></i>
         </a>
-
       </div>
   </section>
 </template>
 
 <style src="./HeroSection.scss"></style>
+<script setup lang="ts">
+</script>

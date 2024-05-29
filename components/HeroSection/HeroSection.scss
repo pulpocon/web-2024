@@ -14,13 +14,15 @@
   div {
     flex: 1;
 
-    &:last-of-type {
+    &.claims {
       display: flex;
+      flex-direction: column-reverse;
+      row-gap: 20px;
 
       a {
         display: inline-block;
         align-self: flex-end;
-        margin: 0 auto
+        margin: 0 auto;
       }
     }
 
