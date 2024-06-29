@@ -21,12 +21,14 @@
         <p>Por todo ello, queremos transmitir nuestra invitación sincera a todos los colectivos que suelen estar poco
           representados en la comunidad tecnológica a que formen parte de la PulpoCon</p>
 
+        <diversity-link></diversity-link>
       </div>
     </div>
   </article>
 </template>
 <script lang="ts" setup>
 import { useHead } from '@vueuse/head'
+import DiversityLink from "../../components/DiversityLink";
 
 useHead({
   bodyAttrs: {
