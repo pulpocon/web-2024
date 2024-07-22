@@ -1,5 +1,5 @@
 export default {
-    title: 'TBC (testing workshop)',
+    title: 'Frontend Testing: Consejos y Buenas Prácticas',
     speaker: [
         {
             image: 'lorena-martinez.jpg',
