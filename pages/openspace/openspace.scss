@@ -1,0 +1,57 @@
+.page--openspace {
+  max-width: 800px;
+
+  .page__header {
+    .heading-1 {
+      margin-bottom: 10px;
+    }
+  }
+
+  .openspace {
+    &__footer {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+
+    &__subsection {
+      margin-bottom: 60px;
+
+      .heading-3 {
+        margin-bottom: 20px;
+      }
+    }
+
+
+    &__speaker {
+      color: #fff;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      text-decoration: none;
+
+      &-image {
+        width: 60px;
+        object-fit: cover;
+        height: 60px;
+        border-radius: 50%;
+        transition: all 0.3s ease-in-out;
+      }
+
+      &:hover {
+        text-decoration: underline;
+
+        .openspace__speaker-image {
+          scale: 1.1;
+        }
+      }
+    }
+
+    &__speakers {
+
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
