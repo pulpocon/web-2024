@@ -192,10 +192,10 @@
               <workshop-teaser id="dorra-bartaguiz"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="antonio-ojea"/>
+              <workshop-teaser id="lorena-martinez"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="lorena-martinez"/>
+              <workshop-teaser id="antonio-ojea"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
               <workshop-teaser id="ana-carmona"/>
