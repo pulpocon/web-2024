@@ -1,5 +1,5 @@
 export default {
-  title: 'TBC',
+  title: '🇬🇧 TBC 🇬🇧',
   speaker:
     {
       image: 'annegret-junker.jpg',

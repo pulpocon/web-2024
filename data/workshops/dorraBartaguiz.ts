@@ -1,5 +1,5 @@
 export default {
-  title: 'GenAI Craft Experience (with Github copilot)',
+  title: '🇬🇧 GenAI Craft Experience (with Github copilot) 🇬🇧',
   speaker: [
     {
       image: 'dorra-bartaguiz.jpg',

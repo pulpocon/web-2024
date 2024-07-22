@@ -1,5 +1,5 @@
 export default {
-    title: 'Domain Driven API Design',
+    title: '🇬🇧 Domain Driven API Design 🇬🇧',
     speaker: [
         {
             image: 'annegret-junker.jpg',

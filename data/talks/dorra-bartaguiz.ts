@@ -1,5 +1,5 @@
 export default {
-  title: 'Elevating Tactical DDD Patterns through Object Calisthenics',
+  title: '🇬🇧 Elevating Tactical DDD Patterns through Object Calisthenics 🇬🇧',
   speaker:
     {
       image: 'dorra-bartaguiz.jpg',
