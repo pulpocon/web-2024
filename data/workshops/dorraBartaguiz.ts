@@ -1,5 +1,5 @@
 export default {
-  title: 'Crafter AI',
+  title: 'GenAI Craft Experience (with Github copilot)',
   speaker: [
     {
       image: 'dorra-bartaguiz.jpg',
@@ -8,9 +8,9 @@ export default {
     }
   ],
   description: [
-    '',
+    'Bring your PC with a GithubCopilot license (or you GenAI tool in IDE) and be amazed!',
   ],
-  schedule: 'Viernes 12:00-14:00',
+  schedule: 'Viernes 16:00-18:00',
   track: 'Crafter Backend',
   twitter: [
     ''

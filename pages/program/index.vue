@@ -189,7 +189,7 @@
               12:00<br>14:00
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="dorra-bartaguiz"/>
+              <workshop-teaser id="annegret-junker" />
             </td>
             <td class="program-day__table-title" rowspan="3">
               <workshop-teaser id="lorena-martinez"/>
@@ -235,7 +235,7 @@
               16:00<br>18:00
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="annegret-junker" />
+              <workshop-teaser id="dorra-bartaguiz"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
               <workshop-teaser id="joan-leon"/>
