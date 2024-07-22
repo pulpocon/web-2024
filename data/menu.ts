@@ -8,18 +8,18 @@ const menu: MenuItem[] = [
     'link': '/#home',
     'title': 'Home'
   },
-  // {
-  //   'link': '/program',
-  //   'title': 'Programa'
-  // },
+  {
+     'link': '/program',
+     'title': 'Programa'
+  },
   {
     'link': '/organization',
     'title': 'Organización'
   },
-  {
-    link: 'https://bit.ly/pulpoCon24C4P',
-    title: 'Call4Papers'
-  },
+  //{
+  //  link: 'https://bit.ly/pulpoCon24C4P',
+  //  title: 'Call4Papers'
+  //},
   // {
   //   'link': '/patrocina',
   //   'title': 'Patrocina'

@@ -1,0 +1,133 @@
+.page--program {
+  .page__header {
+    text-align: center;
+  }
+
+  .program-day {
+    margin-bottom: 60px;
+
+    header {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    &__table-wrapper {
+      overflow-x: auto;
+
+    }
+
+    &__table {
+      max-width: 800px;
+      margin: 0 auto;
+      width: 100%;
+      border-collapse: collapse;
+
+      &-header {
+
+        th {
+          background: var(--dark-blue);
+          padding: 10px;
+          border: 1px solid var(--turquoise);
+        }
+      }
+
+      &-slot {
+        --bg-color: var(--pink);
+        --text-color: #fff;
+
+        height: 40px;
+
+        &--1h {
+          height: 80px;
+        }
+
+        &--2h {
+          height: 160px;
+        }
+
+        &--3h {
+          height: 240px;
+        }
+
+        &--start {
+          --bg-color: var(--turquoise);
+          --text-color: #000;
+        }
+
+        &--break {
+          --bg-color: var(--dark-purple);
+        }
+
+        &--lunch {
+          --bg-color: var(--purple);
+        }
+
+        &--event {
+          --bg-color: var(--pink);
+          --text-color: #000;
+        }
+
+
+        color: var(--text-color);
+      }
+
+      &-time {
+        background: var(--blue-violet);
+        text-align: center;
+        font-size: 0.8em;
+
+        background: color-mix(in srgb, var(--bg-color), #000 15%);
+      }
+
+      &-empty {
+        background: var(--blue-violet);
+
+        background: color-mix(in srgb, var(--bg-color), #000 30%);
+      }
+
+      &-title {
+        background: var(--bg-color);
+        font-size: 0.8em;
+        font-style: italic;
+
+        strong {
+          font-style: normal;
+          margin-top: 10px;
+          display: block;
+          font-weight: bold;
+          font-size: 1rem;
+        }
+      }
+
+      td, th {
+        a {
+          color: inherit;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+
+      td {
+
+
+        padding: 10px;
+        align-items: center;
+        vertical-align: middle;
+        text-align: center;
+        border: 1px solid var(--dark-blue);
+
+        em {
+          font-size: 0.8em;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
