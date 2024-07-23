@@ -160,10 +160,7 @@
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/yanina-morales">
-                {{ talks['yanina-morales'].speaker.name }}
-                <strong>{{ talks['yanina-morales'].title }}</strong>
-              </nuxt-link>
+              TBC
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
