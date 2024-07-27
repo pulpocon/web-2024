@@ -352,10 +352,7 @@
               13:20<br>14:00
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/annegret-junker">
-                {{ talks['annegret-junker'].speaker.name }}
-                <strong>{{ talks['annegret-junker'].title }}</strong>
-              </nuxt-link>
+              TBC
             </td>
           </tr>
           <!----->
@@ -385,7 +382,10 @@
               16:50<br>17:30
             </td>
             <td class="program-day__table-title">
-              TBC
+              <nuxt-link to="/talk/annegret-junker">
+                {{ talks['annegret-junker'].speaker.name }}
+                <strong>{{ talks['annegret-junker'].title }}</strong>
+              </nuxt-link>
             </td>
           </tr>
           <!----->
