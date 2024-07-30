@@ -11,6 +11,11 @@
 
       </div>
       <div>
+        <a class="btn" href="https://entradas.pulpocon.es" target="_blank">
+          🎟 ¡Entradas disponibles! 🎟
+        </a>
+      </div>
+      <div>
         <a class="btn" href="https://bit.ly/pulpoCon24SponsorES" target="_blank">
           Dossier Patrocinadores
         </a>
