@@ -2,7 +2,7 @@ import type { Workshop } from '~/data/typings'
 
 import legacyProjects from '~/data/workshops/legacy-projects';
 import openMic from '~/data/workshops/open-mic'
-import oscarIglesias from '~/data/workshops/oscar-iglesias';
+import salvaCorts from '~/data/workshops/salva-corts';
 import azaharaManuel from '~/data/workshops/azahara-manuel';
 import dorraBartaguiz from '~/data/workshops/dorraBartaguiz';
 import antonioOjea from '~/data/workshops/antonio-ojea';
@@ -16,7 +16,7 @@ import joanLeon from '~/data/workshops/joan-leon';
 export default {
   'legacy-projects': legacyProjects,
   'open-mic': openMic,
-  'oscar-iglesias': oscarIglesias,
+  'salva-corts': salvaCorts,
   'azahara-manuel':azaharaManuel,
   'dorra-bartaguiz': dorraBartaguiz,
   'antonio-ojea': antonioOjea,
