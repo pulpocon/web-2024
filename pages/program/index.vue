@@ -146,7 +146,7 @@
               <workshop-teaser id="azahara-manuel"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-		<workshop-teaser id="salva-corts"/>
+		          <workshop-teaser id="salva-corts"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
               TBC

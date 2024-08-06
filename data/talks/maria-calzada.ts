@@ -1,5 +1,5 @@
 export default {
-  title: '¿Sabes si los datos de tus tarjetas están protegidos?',
+  title: 'Detrás de la pasarela (de pagos)',
   speaker:
     {
       image: 'maria-calzada.jpg',
