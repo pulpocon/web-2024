@@ -12,6 +12,8 @@ import annegretJunker from '~/data/workshops/annegret-junker';
 import almudenaVivanco from '~/data/workshops/almudena-vivanco';
 import mariaLarios from '~/data/workshops/maria-larios';
 import joanLeon from '~/data/workshops/joan-leon';
+import mariaQuiroz from '~/data/workshops/maria-quiroz';
+import irenePiccoli from '~/data/workshops/irene-piccoli';
 
 export default {
   'legacy-projects': legacyProjects,
@@ -26,4 +28,6 @@ export default {
   'almudena-vivanco': almudenaVivanco,
   'maria-larios': mariaLarios,
   'joan-leon': joanLeon,
+  'maria-quiroz': mariaQuiroz,
+  'irene-piccoli': irenePiccoli
 } as Record<string, Workshop>

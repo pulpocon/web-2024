@@ -1,5 +1,5 @@
 export default {
-  title: 'Una explicación ilustrada de Contenedores y Kubernetes ',
+  title: '🇺🇸 Una explicación ilustrada de Contenedores y Kubernetes 🇺🇸',
   speaker:
     {
       image: 'ella-polo.jpg',

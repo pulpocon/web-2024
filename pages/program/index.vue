@@ -140,7 +140,7 @@
               9:00<br>11:00
             </td>
             <td class="program-day__table-title" rowspan="3">
-              TBC
+              <workshop-teaser id="irene-piccoli"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
               <workshop-teaser id="azahara-manuel"/>
@@ -149,7 +149,7 @@
 		          <workshop-teaser id="salva-corts"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              TBC
+              <workshop-teaser id="maria-larios"/>
             </td>
             <td class="program-day__table-title">
               <nuxt-link to="/talk/julia-duran">
@@ -195,7 +195,7 @@
               <workshop-teaser id="antonio-ojea"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="ana-carmona"/>
+              <workshop-teaser id="maria-quiroz"/>
             </td>
             <td class="program-day__table-title">
               <nuxt-link to="/talk/ella-polo">
@@ -206,7 +206,10 @@
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
             <td class="program-day__table-title">
-              TBC
+              <nuxt-link to="/talk/luis-rovirosa">
+                {{ talks['iago-cabo'].speaker.name }}
+                <strong>{{ talks['iago-cabo'].title }}</strong>
+              </nuxt-link>
             </td>
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
@@ -241,7 +244,7 @@
               <workshop-teaser id="almudena-vivanco"/>
             </td>
             <td class="program-day__table-title" rowspan="3">
-              <workshop-teaser id="maria-larios"/>
+              <workshop-teaser id="ana-carmona"/>
             </td>
             <td class="program-day__table-title">
               TBC
