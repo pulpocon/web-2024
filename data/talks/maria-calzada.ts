@@ -2,7 +2,7 @@ export default {
   title: 'Detrás de la pasarela (de pagos)',
   speaker:
     {
-      image: 'maria-calzada.jpg',
+      image: 'maria-cg.jpg',
       name: 'María Calzada González',
       link: ''
     }
