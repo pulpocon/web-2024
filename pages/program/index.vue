@@ -152,10 +152,7 @@
               <workshop-teaser id="maria-larios"/>
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/julia-duran">
-                {{ talks['julia-duran'].speaker.name }}
-                <strong>{{ talks['julia-duran'].title }}</strong>
-              </nuxt-link>
+              TBC
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
