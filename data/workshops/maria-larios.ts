@@ -10,7 +10,7 @@ export default {
     description: [
         'Como Managers es importante conocer y entender los driver que mueven a nuestras developers a abandonar las empresas y escoger sus nuevas aventuras profesionales. Esto nos permitirá desarrollar estrategias de retención y atracción del talento en nuestros equipos y promoverlas internamente dentro de nuestras organizaciones'
     ],
-    schedule: 'Viernes 16:00-18:00',
+    schedule: 'Viernes 09:00-11:00',
     track: 'Management',
     twitter: [
         ''
