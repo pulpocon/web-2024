@@ -8,7 +8,7 @@ export enum SponsorType {
   Octopus = 'octopus',
   Diamond = 'diamond',
   Gold = 'gold',
-  Bronze = 'bronze',
+  Silver = 'silver',
   Multimedia = 'multimedia'
 }
 
@@ -46,7 +46,7 @@ const sponsors: SponsorGroups = {
       link: 'https://optaresolutions.com/?utm_origin=pulpocon&utm_medium=web'
     },
   ],
-  [SponsorType.Bronze]: [
+  [SponsorType.Silver]: [
     {
       name: 'Deveez',
       logo: '/i/sps/deveez.svg',
