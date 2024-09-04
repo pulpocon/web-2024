@@ -1,5 +1,5 @@
 export default {
-  title: 'TBC',
+  title: 'Observabilidad con OpenTelemetry',
   speaker:
     {
       image: 'iago-cabo.jpg',
