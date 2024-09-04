@@ -15,6 +15,6 @@ export default {
       'Utilizar la duplicidad como una herramienta para descubrir y refinar la simetría en el código.',
       'Mejorar la calidad del código mediante la refactorización continua.'
   ],
-  schedule: 'Viernes 13:20-14:00',
+  schedule: 'Viernes 16:00-16:40',
   twitter: ''
 }

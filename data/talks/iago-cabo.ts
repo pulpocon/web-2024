@@ -9,6 +9,6 @@ export default {
   description: [
     ''
   ],
-  schedule: 'Viernes 12:40-13:20',
+  schedule: 'Viernes 13:20-14:00',
   twitter: ''
 }
