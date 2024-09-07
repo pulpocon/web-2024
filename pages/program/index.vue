@@ -308,7 +308,7 @@
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--event">
             <td class="program-day__table-time">
-              09:40<br>10:00
+              9:40<br>10:00
             </td>
             <td class="program-day__table-title">
               Opening
@@ -317,7 +317,7 @@
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--10m program-day__table-slot--event">
             <td class="program-day__table-time">
-              10:00<br>10:30
+              10:00<br>10:40
             </td>
             <td class="program-day__table-title">
               <nuxt-link to="/talk/maria-calzada">
@@ -364,7 +364,10 @@
               13:20<br>14:00
             </td>
             <td class="program-day__table-title">
-              TBC
+              <nuxt-link to="/talk/krisztina-hirth">
+                {{ talks['krisztina-hirth'].speaker.name }}
+                <strong>{{ talks['krisztina-hirth'].title }}</strong>
+              </nuxt-link>
             </td>
           </tr>
           <!----->
@@ -382,9 +385,9 @@
               16:00<br>16:40
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/concha-asensio">
-                {{ talks['dorra-bartaguiz'].speaker.name }}
-                <strong>{{ talks['dorra-bartaguiz'].title }}</strong>
+              <nuxt-link to="/talk/annegret-junker">
+                {{ talks['annegret-junker'].speaker.name }}
+                <strong>{{ talks['annegret-junker'].title }}</strong>
               </nuxt-link>
             </td>
           </tr>
@@ -394,9 +397,9 @@
               16:50<br>17:30
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/annegret-junker">
-                {{ talks['annegret-junker'].speaker.name }}
-                <strong>{{ talks['annegret-junker'].title }}</strong>
+              <nuxt-link to="/talk/dorra-bartaguiz">
+                {{ talks['dorra-bartaguiz'].speaker.name }}
+                <strong>{{ talks['dorra-bartaguiz'].title }}</strong>
               </nuxt-link>
             </td>
           </tr>

@@ -13,6 +13,7 @@ import mercedesRodriguez from './talks/mercedes-rodriguez';
 import jankoMiguel from './talks/janko-miguel';
 import nadiaSantalla from './talks/nadia-santalla';
 import santiHerrero from './talks/santi-herrero';
+import krisztinaHirth from "./talks/krisztina-hirth";
 
 export default {
   'julia-duran': juliaDuran,
@@ -30,4 +31,5 @@ export default {
   'berny-cantos': bernyCantos,
   'annegret-junker': annegretJunker,
   'dorra-bartaguiz': dorraBartaguiz,
+  'krisztina-hirth': krisztinaHirth,
 }
