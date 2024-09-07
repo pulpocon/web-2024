@@ -3,7 +3,7 @@
     <header class="page__header">
       <h1 class="heading-1">
         <span>
-          Programa provisional
+          Programa definitivo
         </span>
       </h1>
     </header>
@@ -152,7 +152,7 @@
               <workshop-teaser id="maria-quiroz"/>
             </td>
             <td class="program-day__table-title">
-              TBC
+              Opening
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
