@@ -7,7 +7,7 @@
       <h3 class="workshop__track">Track {{ workshop.track }} - {{ workshop.schedule }}</h3>
     </header>
     <section v-if="workshop.speaker?.length > 0" class="workshop__speakers workshop__subsection">
-      <h2 class="heading-3">{{ workshop.speaker.length > 1 ? 'Ponentes' : 'Ponente' }}</h2>
+      <h2 class="heading-3">{{ workshop.speaker.length > 1 ? 'Speakers' : 'Speaker' }}</h2>
       <ul>
         <li v-for="speaker in workshop.speaker">
           <a :href="speaker.link" class="workshop__speaker" rel="noopener noreferrer" target="_blank">
