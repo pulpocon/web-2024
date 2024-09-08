@@ -4,7 +4,7 @@ export default {
     [{
       image: 'krisztina-hirth.jpeg',
       name: 'Krisztina Hirth',
-      link: ''
+      link: 'https://www.linkedin.com/in/christina-hirth-yellowbrickcode/'
     }]
   ,
   description: [

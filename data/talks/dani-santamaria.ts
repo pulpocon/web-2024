@@ -4,7 +4,7 @@ export default {
     [{
       image: 'dani-santamaria.jpg',
       name: 'Dani Santamaría',
-      link: ''
+      link: 'https://www.linkedin.com/in/dani-santamaría/'
     }]
   ,
   description: [

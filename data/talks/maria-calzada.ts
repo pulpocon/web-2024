@@ -4,7 +4,7 @@ export default {
     [{
       image: 'maria-cg.jpg',
       name: 'María Calzada González',
-      link: ''
+      link: 'https://www.linkedin.com/in/m4riacg/'
     }]
   ,
   description: [

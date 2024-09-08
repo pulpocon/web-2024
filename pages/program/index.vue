@@ -296,10 +296,7 @@
               10:00<br>10:40
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/maria-calzada">
-                {{ talks['maria-calzada'].speaker.name }}
-                <strong>{{ talks['maria-calzada'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="maria-calzada"/>
             </td>
           </tr>
           <!----->
@@ -308,10 +305,7 @@
               10:40<br>11:20
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/berny-cantos">
-                {{ talks['berny-cantos'].speaker.name }}
-                <strong>{{ talks['berny-cantos'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="berny-cantos"/>
             </td>
           </tr>
           <!----->
@@ -329,10 +323,7 @@
               12:30<br>13:10
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/dani-santamaria">
-                {{ talks['dani-santamaria'].speaker.name }}
-                <strong>{{ talks['dani-santamaria'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="dani-santamaria"/>
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--event">
@@ -340,10 +331,7 @@
               13:20<br>14:00
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/krisztina-hirth">
-                {{ talks['krisztina-hirth'].speaker.name }}
-                <strong>{{ talks['krisztina-hirth'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="krisztina-hirth"/>
             </td>
           </tr>
           <!----->
@@ -361,10 +349,7 @@
               16:00<br>16:40
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/annegret-junker">
-                {{ talks['annegret-junker'].speaker.name }}
-                <strong>{{ talks['annegret-junker'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="annegret-junker"/>
             </td>
           </tr>
           <!----->
@@ -373,10 +358,7 @@
               16:50<br>17:30
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/dorra-bartaguiz">
-                {{ talks['dorra-bartaguiz'].speaker.name }}
-                <strong>{{ talks['dorra-bartaguiz'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="dorra-bartaguiz"/>
             </td>
           </tr>
           <!----->
