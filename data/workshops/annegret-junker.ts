@@ -4,7 +4,7 @@ export default {
         {
             image: 'annegret-junker.jpg',
             name: 'Annegret Junker',
-            link: ''
+            link: 'https://www.linkedin.com/in/dr-annegret-junker-141a99a4/'
         }
     ],
     description: [

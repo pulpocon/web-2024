@@ -1,5 +1,3 @@
-import juliaDuran from './talks/julia-duran';
-import yaninaMorales from './talks/yanina-morales';
 import emilioCarrion from './talks/emilio-carrion';
 import ellaPolo from './talks/ella-polo';
 import iagoCabo from './talks/iago-cabo';
@@ -16,8 +14,6 @@ import santiHerrero from './talks/santi-herrero';
 import krisztinaHirth from "./talks/krisztina-hirth";
 
 export default {
-  'julia-duran': juliaDuran,
-  'yanina-morales': yaninaMorales,
   'emilio-carrion': emilioCarrion,
   'ella-polo': ellaPolo,
   'iago-cabo': iagoCabo,

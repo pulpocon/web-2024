@@ -4,7 +4,7 @@ export default {
         {
             image: 'maria-larios.jpg',
             name: 'María Larios',
-            link: ''
+            link: 'https://www.linkedin.com/in/marialarios/'
         }
     ],
     description: [

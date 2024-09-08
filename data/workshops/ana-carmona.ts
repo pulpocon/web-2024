@@ -4,7 +4,7 @@ export default {
     {
       image: 'ana-carmona.jpg',
       name: 'Ana Carmona',
-      link: 'https://twitter.com/nhan_bcn'
+      link: 'https://www.linkedin.com/in/ana-carmona-ag/'
     }
   ],
   description: [

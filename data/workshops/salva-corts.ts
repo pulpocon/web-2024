@@ -4,7 +4,7 @@ export default {
         {
             image: 'salava-corts.jpg',
             name: 'Salva Corts',
-            link: ''
+            link: 'https://www.linkedin.com/in/salva-corts/'
         }
     ],
     description: [

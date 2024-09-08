@@ -4,7 +4,7 @@ export default {
     {
       image: 'almudena-vivanco.jpg',
       name: 'Almudena Vivanco',
-      link: ''
+      link: 'https://www.linkedin.com/in/almudenavivanco/'
     }
   ],
   description: [

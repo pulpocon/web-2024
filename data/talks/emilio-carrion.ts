@@ -1,11 +1,11 @@
 export default {
   title: 'Arquitectura Evolutiva: Introduciendo DDD y Hexagonal en el legacy',
   speaker:
-    {
+    [{
       image: 'emilio-carrion.jpg',
       name: 'Emilio Carrión',
-      link: ''
-    }
+      link: 'https://www.linkedin.com/in/emcarrio/'
+    }]
   ,
   description: [
       'A menudo, los equipos de desarrollo se enfrentan al desafío de modernizar sus proyectos legacy para mejorar su mantenibilidad y escalabilidad. Domain-Driven Design (DDD) y la Arquitectura Hexagonal son enfoques prometedores, pero su implementación en proyectos y equipos ya establecidos puede ser un reto.',

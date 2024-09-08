@@ -2,9 +2,19 @@ export default {
   title: 'Legacy Projects: Delivery with testing',
   speaker: [
     {
-      image: 'codium.png',
-      name: 'CODIUM',
-      link: ''
+      image: 'jordi-anguela.jpg',
+      name: 'Jordi Anguela',
+      link: 'https://linkedin.com/in/jordianguela/'
+    },
+    {
+      image: 'hugo-chinchilla.jpg',
+      name: 'Hugo Chinchilla',
+      link: 'https://linkedin.com/in/hugo-chinchilla-carbonell/'
+    },
+    {
+      image: 'jose-cabrera.jpg',
+      name: 'Jose Cabrera',
+      link: 'https://linkedin.com/in/11joselu/'
     }
   ],
   description: [
@@ -24,7 +34,7 @@ export default {
 'En este taller, exploraremos tanto la parte frontend (React y Typescript) como el backend (PHP) , con el objetivo de asegurar la estabilidad y seguridad al introducir cambios en el código.',
 '¿Te apuntas a vivir en verde?'
   ],
-  schedule: 'Jueves 09:30-19:00',
+  schedule: 'Jueves 09:30-18:30',
   track: 'Track CODIUM',
   twitter: [
     ''

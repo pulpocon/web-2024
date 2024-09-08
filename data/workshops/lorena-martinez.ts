@@ -4,7 +4,7 @@ export default {
         {
             image: 'lorena-martinez.jpg',
             name: 'Lorena Martínez',
-            link: ''
+            link: 'https://www.linkedin.com/in/lorenamartinezmoledo/'
         }
     ],
     description: [

@@ -4,7 +4,7 @@ export default {
         {
             image: 'maria-quiroz.jpg',
             name: 'María Quiroz',
-            link: ''
+            link: 'https://www.linkedin.com/in/mariaguija/'
         }
     ],
     description: [

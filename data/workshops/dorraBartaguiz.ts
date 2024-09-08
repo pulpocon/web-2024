@@ -4,7 +4,7 @@ export default {
     {
       image: 'dorra-bartaguiz.jpg',
       name: 'Dorra Bartaguiz',
-      link: 'https://twitter.com/dorra_bartaguiz'
+      link: 'https://www.linkedin.com/in/💎dorra-bartaguiz-457b5315/'
     }
   ],
   description: [

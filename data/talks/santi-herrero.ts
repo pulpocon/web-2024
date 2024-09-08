@@ -1,11 +1,11 @@
 export default {
   title: 'Diseñando la topología de tu equipo de ingeniería',
   speaker:
-    {
-      image: 'santi-herrero.jpg',
+    [{
+      image: 'santi-herrero.png',
       name: 'Santi Herrero',
-      link: ''
-    }
+      link: 'https://www.linkedin.com/in/santih/'
+    }]
   ,
   description: [
       'En esta charla compartiremos cómo en Edpuzzle hemos diseñado y escalado nuestra estructura de equipo en un contexto de rápido crecimiento del producto. ',

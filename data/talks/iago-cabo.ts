@@ -1,11 +1,11 @@
 export default {
   title: 'Observabilidad con OpenTelemetry',
   speaker:
-    {
+    [{
       image: 'iago-cabo.jpg',
       name: 'Iago Cabo',
       link: ''
-    },
+    }],
   description: [
     ''
   ],

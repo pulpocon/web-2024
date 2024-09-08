@@ -4,7 +4,7 @@ export default {
     {
       image: 'antonio-ojea.jpg',
       name: 'Antonio Ojea',
-      link: ''
+      link: 'https://www.linkedin.com/in/ajojea/'
     }
   ],
   description: [

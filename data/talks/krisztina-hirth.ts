@@ -1,11 +1,11 @@
 export default {
   title: '🇬🇧 Shifting from Projects to Feedback-Based Product Development 🇬🇧',
   speaker:
-    {
+    [{
       image: 'krisztina-hirth.jpeg',
       name: 'Krisztina Hirth',
       link: ''
-    }
+    }]
   ,
   description: [
       'As software continues to dominate the business landscape, there is a growing need for better digital products built with a feedback-based approach. While many organizations think they are agile, interviewing customers and preparing design mockups for weeks, followed by a backlog for the next six months, is still waterfall development. Most people involved in product development are unaware of how having a project or a product mindset influences the digital solution. They usually blame the developers when the software becomes slow, hard to maintain and error-prone, and the developers blame product managers and designers for continuously "changing the requirements".',

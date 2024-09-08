@@ -1,11 +1,11 @@
 export default {
   title: 'Kubernetes outside the cloud: Lessons learned after 3 years',
   speaker:
-    {
-      image: 'nadia-santalla.jpg',
+    [{
+      image: 'nadia-santalla.jpeg',
       name: 'Nadia Santalla',
-      link: ''
-    }
+      link: 'https://www.linkedin.com/in/roobre/'
+    }]
   ,
   description: [
       'Kubernetes is most commonly run on cloud, and even more commonly on its managed form. However, self-managing k8s on metal is much more fun! ',

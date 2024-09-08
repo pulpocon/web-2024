@@ -2,9 +2,9 @@ export default {
     title: 'Introducción a mutation testing',
     speaker: [
         {
-            image: 'irene-piccoli.jpg',
+            image: 'irene-piccoli.jpeg',
             name: 'Irene Piccoli',
-            link: ''
+            link: 'https://www.linkedin.com/in/irene-piccoli/'
         }
     ],
     description: [

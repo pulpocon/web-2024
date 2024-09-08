@@ -1,11 +1,11 @@
 export default {
   title: 'eXtreme Architecture: la dimensión humana de la arquitectura de software',
   speaker:
-    {
+    [{
       image: 'dani-santamaria.jpg',
       name: 'Dani Santamaría',
       link: ''
-    }
+    }]
   ,
   description: [
       'En el mundo de la arquitectura de software, a menudo nos dejamos llevar por la fascinación técnica de soluciones como Hexagonal, CQRS, microservicios, EDA, Event Sourcing, DDD Táctico etc. Sin embargo, en esta charla, me propongo ir más allá de lo puramente técnico, explorando cómo la dimensión humana y social es fundamental en la creación de sistemas efectivos y resilientes.',
