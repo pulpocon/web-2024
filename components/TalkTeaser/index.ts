@@ -1,3 +1,3 @@
-import WorkshopTeaser from './WorkshopTeaser.vue'
+import TalkTeaser from './TalkTeaser.vue'
 
-export default WorkshopTeaser
+export default TalkTeaser
