@@ -7,11 +7,15 @@
       <h3 class="talk__track">{{ talk.schedule }}</h3>
     </header>
     <section v-if="talk.speaker" class="talk__speakers talk__subsection">
-      <h2 class="heading-3">Speaker</h2>
-      <a :href="talk.speaker.link" class="talk__speaker" rel="noopener noreferrer" target="_blank">
-        <img :alt="talk.speaker.name" :src="image" class="talk__speaker-image">
-        {{ talk.speaker.name }}
-      </a>
+      <h2 class="heading-3">{{ talk.speaker.length > 1 ? 'Speakers' : 'Speaker' }}</h2>
+      <ul>
+        <li v-for="speaker in talk.speaker">
+          <a :href="speaker.link" class="talk__speaker" rel="noopener noreferrer" target="_blank">
+            <img :alt="speaker.name" :src="getImage(speaker.image)" class="talk__speaker-image">
+            {{ speaker.name }}
+          </a>
+        </li>
+      </ul>
     </section>
 
     <div class="talk__description  talk__subsection">
@@ -36,9 +40,6 @@ const route = useRoute()
 
 const talk: ComputedRef = computed(() => talks[route.params.id] || {})
 
-const image: ComputedRef<string | undefined> = computed(() => {
-  if (!talk.value.speaker) return undefined
-  return `/i/speakers/${talk.value.speaker.image}`
-})
+const getImage = (image: string) => `/i/speakers/${image}`
 </script>
 <style src="./talk.scss"></style>
