@@ -12,6 +12,7 @@ import jankoMiguel from './talks/janko-miguel';
 import nadiaSantalla from './talks/nadia-santalla';
 import santiHerrero from './talks/santi-herrero';
 import krisztinaHirth from "./talks/krisztina-hirth";
+import type {Talk} from "~/data/typings";
 
 export default {
   'emilio-carrion': emilioCarrion,
@@ -28,4 +29,4 @@ export default {
   'annegret-junker': annegretJunker,
   'dorra-bartaguiz': dorraBartaguiz,
   'krisztina-hirth': krisztinaHirth,
-}
+} as Record<string, Talk>

@@ -157,18 +157,12 @@
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/mercedes-rodriguez">
-                {{ talks['mercedes-rodriguez'].speaker.name }}
-                <strong>{{ talks['mercedes-rodriguez'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="mercedes-rodriguez"/>
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/ella-polo">
-                {{ talks['ella-polo'].speaker.name }}
-                <strong>{{ talks['ella-polo'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="ella-polo"/>
             </td>
           </tr>
           <!----->
@@ -198,26 +192,17 @@
               <workshop-teaser id="maria-larios"/>
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/emilio-carrion">
-                {{ talks['emilio-carrion'].speaker.name }}
-                <strong>{{ talks['emilio-carrion'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="emilio-carrion"/>
             </td>
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/nadia-santalla">
-                {{ talks['nadia-santalla'].speaker.name }}
-                <strong>{{ talks['nadia-santalla'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="nadia-santalla"/>
             </td>
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/luis-rovirosa">
-                {{ talks['iago-cabo'].speaker.name }}
-                <strong>{{ talks['iago-cabo'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="iago-cabo"/>
             </td>
           </tr>
           <!----->
@@ -247,26 +232,17 @@
               <workshop-teaser id="ana-carmona"/>
             </td>
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/luis-rovirosa">
-                {{ talks['luis-rovirosa'].speaker.name }}
-                <strong>{{ talks['luis-rovirosa'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="luis-rovirosa"/>
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/santi-herrero">
-                {{ talks['santi-herrero'].speaker.name }}
-                <strong>{{ talks['santi-herrero'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="santi-herrero"/>
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <nuxt-link to="/talk/janko-miguel">
-                {{ talks['janko-miguel'].speaker.name }}
-                <strong>{{ talks['janko-miguel'].title }}</strong>
-              </nuxt-link>
+              <talk-teaser id="janko-miguel"/>
             </td>
           </tr>
           <!----->

@@ -12,3 +12,11 @@ export interface Workshop {
   track: string
   twitter: string[]
 }
+
+export interface Talk {
+  title: string
+  speaker: Speaker[]
+  description: string[]
+  schedule: string
+  twitter: string
+}
