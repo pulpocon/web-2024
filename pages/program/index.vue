@@ -470,7 +470,7 @@
               Cóctel post-evento 🍸
             </td>
             <td class="program-day__table-time">
-              18:00<br>21:00
+              18:00<br>20:30
             </td>
           </tr>
         </table>
