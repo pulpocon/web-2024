@@ -148,19 +148,19 @@
 
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--start">
             <td class="program-day__table-time">
-              08:00<br/>09:00
+              08:30<br/>09:30
             </td>
             <td class="program-day__table-title" colspan="5">
               Badge pickup & Breakfast 🪪☕
             </td>
             <td class="program-day__table-time">
-              08:00<br/>09:00
+              08:30<br/>09:30
             </td>
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
             <td class="program-day__table-time" rowspan="3">
-              9:00<br>11:00
+              9:30<br>11:30
             </td>
             <td class="program-day__table-title" rowspan="3">
               <workshop-teaser id="irene-piccoli"/>
@@ -178,7 +178,7 @@
               Opening
             </td>
             <td class="program-day__table-time">
-              09:00<br/>09:40
+              09:30<br/>10:10
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
@@ -186,7 +186,7 @@
               <talk-teaser id="mercedes-rodriguez"/>
             </td>
             <td class="program-day__table-time">
-              09:40<br/>10:20
+              10:10<br/>10:50
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
@@ -194,25 +194,25 @@
               <talk-teaser id="ella-polo"/>
             </td>
             <td class="program-day__table-time">
-              10:20<br/>11:00
+              10:50<br/>11:30
             </td>
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--break">
             <td class="program-day__table-time">
-              11:00<br>12:00
+              11:30<br>12:30
             </td>
             <td class="program-day__table-title" colspan="5">
               Coffee Break ☕
             </td>
             <td class="program-day__table-time">
-              11:00<br>12:00
+              11:30<br>12:30
             </td>
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
             <td class="program-day__table-time" rowspan="3">
-              12:00<br>14:00
+              12:30<br>14:30
             </td>
             <td class="program-day__table-title" rowspan="3">
               <workshop-teaser id="annegret-junker" />
@@ -230,7 +230,7 @@
               <talk-teaser id="emilio-carrion"/>
             </td>
             <td class="program-day__table-time">
-              12:00<br>12:40
+              12:30<br>13:10
             </td>
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
@@ -238,7 +238,7 @@
               <talk-teaser id="nadia-santalla"/>
             </td>
             <td class="program-day__table-time">
-              12:40<br>13:20
+              13:10<br>13:50
             </td>
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
@@ -246,25 +246,25 @@
               <talk-teaser id="iago-cabo"/>
             </td>
             <td class="program-day__table-time">
-              13:20<br>14:00
+              13:50<br>14:30
             </td>
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--lunch">
             <td class="program-day__table-time">
-              14:00<br>16:00
+              14:30<br>16:30
             </td>
             <td class="program-day__table-title" colspan="5">
               Lunch 🍽️
             </td>
             <td class="program-day__table-time">
-              14:00<br>16:00
+              14:30<br>16:30
             </td>
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
             <td class="program-day__table-time" rowspan="3">
-              16:00<br>18:00
+              16:30<br>18:30
             </td>
             <td class="program-day__table-title" rowspan="3">
               <workshop-teaser id="dorra-bartaguiz"/>
@@ -282,7 +282,7 @@
               <talk-teaser id="luis-rovirosa"/>
             </td>
             <td class="program-day__table-time">
-              16:00<br>16:40
+              16:30<br>17:10
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
@@ -290,7 +290,7 @@
               <talk-teaser id="santi-herrero"/>
             </td>
             <td class="program-day__table-time">
-              16:40<br>17:20
+              17:10<br>17:50
             </td>
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
@@ -298,19 +298,19 @@
               <talk-teaser id="janko-miguel"/>
             </td>
             <td class="program-day__table-time">
-              17:20<br>18:00
+              17:50<br>18:30
             </td>
           </tr>
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--event">
             <td class="program-day__table-time">
-              18:00<br>19:00
+              18:30<br>19:30
             </td>
             <td class="program-day__table-title" colspan="5">
               <workshop-teaser id="open-mic"/>
             </td>
             <td class="program-day__table-time">
-              18:00<br>19:00
+              18:30<br>19:30
             </td>
           </tr>
         </table>
@@ -464,7 +464,7 @@
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--1h program-day__table-slot--break">
             <td class="program-day__table-time">
-              18:00<br>21:00
+              18:00<br>20:30
             </td>
             <td class="program-day__table-title">
               Cóctel post-evento 🍸
