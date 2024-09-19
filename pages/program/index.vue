@@ -91,7 +91,7 @@
             </td>
           </tr>
           <!----->
-          <tr class="program-day__table-slot  program-day__table-slot--2h program-day__table-slot--event">
+          <tr class="program-day__table-slot  program-day__table-slot--1h program-day__table-slot--event">
             <td class="program-day__table-time" rowspan="2">
               15:30<br>18:30
             </td>
