@@ -81,32 +81,41 @@
           <!----->
           <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--lunch">
             <td class="program-day__table-time">
-              14:00<br>16:00
+              14:00<br>15:30
             </td>
             <td class="program-day__table-title" colspan="2">
               Lunch 🍽️
             </td>
             <td class="program-day__table-time">
-              14:00<br>16:00
+              14:00<br>15:30
             </td>
           </tr>
           <!----->
-          <tr class="program-day__table-slot  program-day__table-slot--3h program-day__table-slot--event">
-            <td class="program-day__table-time">
-              16:00<br>19:00
+          <tr class="program-day__table-slot  program-day__table-slot--2h program-day__table-slot--event">
+            <td class="program-day__table-time" rowspan="2">
+              15:30<br>18:30
             </td>
-            <td class="program-day__table-title">
+            <td class="program-day__table-title" rowspan="2">
               <workshop-teaser id="legacy-projects"/>
             </td>
+            <td class="program-day__table-title">
+              Badge pickup
+            </td>
+            <td class="program-day__table-time">
+              15:30<br>16:00
+            </td>
+          </tr>
+          <tr class="program-day__table-slot program-day__table-slot--2h program-day__table-slot--event">
             <td class="program-day__table-title">
               <nuxt-link to="/openspace">
                 Open Space
               </nuxt-link>
             </td>
             <td class="program-day__table-time">
-              16:00<br>19:00
+              16:00<br>18:30
             </td>
           </tr>
+
         </table>
       </div>
 
@@ -183,7 +192,7 @@
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="mercedes-rodriguez"/>
+              <talk-teaser id="ella-polo"/>
             </td>
             <td class="program-day__table-time">
               10:10<br/>10:50
@@ -191,7 +200,7 @@
           </tr>
           <tr class="program-day__table-slot program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="ella-polo"/>
+              <talk-teaser id="emilio-carrion"/>
             </td>
             <td class="program-day__table-time">
               10:50<br/>11:30
@@ -227,7 +236,7 @@
               <workshop-teaser id="maria-larios"/>
             </td>
             <td class="program-day__table-title">
-              <talk-teaser id="emilio-carrion"/>
+              <talk-teaser id="nadia-santalla"/>
             </td>
             <td class="program-day__table-time">
               12:30<br>13:10
@@ -235,7 +244,7 @@
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="nadia-santalla"/>
+              <talk-teaser id="iago-cabo"/>
             </td>
             <td class="program-day__table-time">
               13:10<br>13:50
@@ -243,7 +252,7 @@
           </tr>
           <tr class="program-day__table-slot  program-day__table-slot--event">
             <td class="program-day__table-title">
-              <talk-teaser id="iago-cabo"/>
+              <talk-teaser id="mercedes-rodriguez"/>
             </td>
             <td class="program-day__table-time">
               13:50<br>14:30
