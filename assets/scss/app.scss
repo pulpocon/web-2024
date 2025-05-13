@@ -1,5 +1,14 @@
+
 @import "reset";
 @import "sireno-grid/src/sireno-grid";
+
+$grid-breakpoints: (
+        xs: 0,
+        lxs: 576px,
+        sm: 768px,
+        md: 992px,
+        lg: 1200px
+) !default;
 
 $xs: (map-get($grid-breakpoints, xs), map-get($grid-breakpoints, sm) - 1px);
 $sm: (map-get($grid-breakpoints, sm), map-get($grid-breakpoints, md) - 1px);
@@ -15,4 +24,5 @@ $lg: (map-get($grid-breakpoints, lg));
 @import "global";
 @import "elements";
 @import "content";
+
 

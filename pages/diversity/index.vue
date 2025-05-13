@@ -27,7 +27,6 @@
   </article>
 </template>
 <script lang="ts" setup>
-import { useHead } from '@vueuse/head'
 import DiversityLink from "../../components/DiversityLink";
 
 useHead({

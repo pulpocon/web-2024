@@ -27,7 +27,16 @@
 
 <script lang="ts" setup>
 
-import { Organizer } from '~/data/organizers'
+type Organizer = {
+  name: string
+  position: string
+  bio: string
+  image: URL
+  social?: {
+    linkedin?: string
+    twitter?: string
+  }
+}
 
 defineProps({
   organizer: { type: Object as () => Organizer, required: true }

@@ -11,12 +11,12 @@
 <script lang="ts" setup>
 import { storeToRefs } from 'pinia'
 import { onBeforeUnmount, onMounted } from 'vue'
-import MobileMenu from '~/components/MobileMenu'
-import WebFooter from '~/components/WebFooter'
-import WebHeader from '~/components/WebHeader'
-import { useMobileMenuStore } from '~/stores/mobileMenu'
-import { useUIStore } from '~/stores/ui'
-import Index from '~/pages/index/index.vue'
+import MobileMenu from '../components/MobileMenu'
+import WebFooter from '../components/WebFooter'
+import WebHeader from '../components/WebHeader'
+import { useMobileMenuStore } from '../stores/mobileMenu'
+import { useUIStore } from '../stores/ui'
+import Index from '../pages/index/index.vue'
 
 const { setNotInTop } = useUIStore()
 const mobileMenuStore = useMobileMenuStore()

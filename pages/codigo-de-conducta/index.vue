@@ -69,7 +69,6 @@
   </article>
 </template>
 <script lang="ts" setup>
-import { useHead } from '@vueuse/head'
 
 useHead({
   bodyAttrs: {

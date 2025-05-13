@@ -4,7 +4,6 @@
   </NuxtLayout>
 </template>
 <script lang="ts">
-import { useHead } from '@vueuse/head'
 import { defineComponent } from 'vue'
 import App from './app.vue'
 

@@ -1,12 +1,16 @@
-import mdPlugin, { Mode } from 'vite-plugin-markdown'
+// https://nuxt.com/docs/api/configuration/nuxt-config
+
 
 export default defineNuxtConfig({
+  compatibilityDate: '2024-11-01',
+  devtools: { enabled: true },
   mode: 'static',
   modules: [
     '@nuxt/content',
-    '@pinia/nuxt'
+    '@pinia/nuxt',
+    '@vueuse/nuxt'
   ],
-  css: ['~/assets/scss/app.scss', '~/node_modules/@fortawesome/fontawesome-free/css/all.css'],
+  css: ['./assets/scss/app.scss'],
   meta: {
     title: '#pulpoCon24 - 19, 20 y 21 de septiembre en Vigo 🐙',
     meta: [
@@ -26,7 +30,7 @@ export default defineNuxtConfig({
         hid: 'og:description',
         property: 'og:description',
         content:
-          'PulpoCon 🐙 es el evento #gastrotechh / conferencia que acercará el movimiento “crafter” y el “clean code” a la comunidad de desarrolladores de Galicia y su área de influencia mediante charlas y talleres.  Técnicas, arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado. Con reconocidos ponentes de gran prestigio nacional e internacional. 19, 20 y 21 de septiembre de 2024 en Vigo'
+            'PulpoCon 🐙 es el evento #gastrotechh / conferencia que acercará el movimiento “crafter” y el “clean code” a la comunidad de desarrolladores de Galicia y su área de influencia mediante charlas y talleres.  Técnicas, arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado. Con reconocidos ponentes de gran prestigio nacional e internacional. 19, 20 y 21 de septiembre de 2024 en Vigo'
       },
       {
         hid: 'og:image',
@@ -47,11 +51,6 @@ export default defineNuxtConfig({
   plugins: [],
   render: {
     resourceHints: false
-  },
-  vite: {
-    plugins: [mdPlugin({
-      mode: [Mode.VUE]
-    })]
   },
   cookieControl: {
     optional: [
@@ -77,4 +76,3 @@ export default defineNuxtConfig({
 
   }
 })
-

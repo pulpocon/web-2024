@@ -48,6 +48,7 @@
 </template>
 
 <script lang="ts" setup>
-import organizers from '~/data/organizers'
-import OrganizerPerson from '../../components/OrganizerPerson'</script>
+import organizers from '../../data/organizers'
+import OrganizerPerson from '../../components/OrganizerPerson'
+</script>
 <style src="./organization.scss"></style>

@@ -3,6 +3,7 @@
     <div class="summary-section__video-wrapper">
       <video autoplay loop muted playsinline>
         <source src="/video-bg.mp4" type="video/mp4">
+        Tu navegador no soporta el video
       </video>
     </div>
 

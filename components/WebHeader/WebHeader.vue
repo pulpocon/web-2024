@@ -48,9 +48,9 @@
 import menu from '@/data/menu'
 import social from '@/data/social'
 import { storeToRefs } from 'pinia'
-import Logo from '~/components/Logos/LogoPulpoCon1Ink.vue'
-import { useMobileMenuStore } from '~/stores/mobileMenu'
-import { useUIStore } from '~/stores/ui'
+import Logo from '../../components/Logos/LogoPulpoCon1Ink.vue'
+import { useMobileMenuStore } from '../../stores/mobileMenu'
+import { useUIStore } from '../../stores/ui'
 
 const mobileMenu = useMobileMenuStore()
 const uiStore = useUIStore()

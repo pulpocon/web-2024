@@ -27,9 +27,9 @@
 
 
 <script lang="ts" setup>
-import menu from '~/data/menu'
-import { useMobileMenuStore } from '~/stores/mobileMenu'
-import { useUIStore } from '~/stores/ui'
+import menu from '../../data/menu'
+import { useMobileMenuStore } from '../../stores/mobileMenu'
+import { useUIStore } from '../../stores/ui'
 
 defineProps({
   visible: { type: Boolean, default: false }

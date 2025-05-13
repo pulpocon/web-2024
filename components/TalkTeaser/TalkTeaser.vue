@@ -5,9 +5,21 @@
   </nuxt-link>
 </template>
 <script lang="ts" setup>
-import { Talk } from '~/data/typings'
-import { ComputedRef } from 'vue'
-import talks from '~/data/talks'
+import talks from '../../data/talks'
+
+type Speaker = {
+  image: string
+  name: string
+  link?: string
+}
+
+type Talk = {
+  title: string
+  speaker: Speaker[]
+  description: string[]
+  schedule: string
+  twitter: string
+}
 
 const props = defineProps({
   id: { type: String, required: true }

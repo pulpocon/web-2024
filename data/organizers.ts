@@ -1,4 +1,4 @@
-export interface Organizer {
+export type Organizer = {
   name: string
   position: string
   bio: string

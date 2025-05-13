@@ -32,8 +32,7 @@
   </article>
 </template>
 <script lang="ts" setup>
-import workshops from '~/data/workshops'
-import { ComputedRef } from 'vue'
+import workshops from '../../data/workshops'
 import { useRoute } from '#app'
 
 const route = useRoute()

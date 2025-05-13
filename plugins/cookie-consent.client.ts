@@ -1,6 +1,8 @@
+/*
 import { defineNuxtPlugin } from '#app'
 import 'vanilla-cookieconsent/src/cookieconsent.css'
 import 'vanilla-cookieconsent/src/cookieconsent.js'
+*/
 
 export default defineNuxtPlugin(nuxtApp => {
   // const cc = window.initCookieConsent()

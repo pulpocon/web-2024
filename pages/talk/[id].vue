@@ -32,8 +32,7 @@
   </article>
 </template>
 <script lang="ts" setup>
-import talks from '~/data/talks'
-import { computed, ComputedRef } from 'vue'
+import talks from '../../data/talks'
 import { useRoute } from '#app'
 
 const route = useRoute()
